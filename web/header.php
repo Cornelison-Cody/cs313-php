@@ -11,7 +11,7 @@
     <header>
         <div id="header-logo">
             <a href="index.php">
-                <img src="logo.jpg" alt="Logo" width="60" height="60">
+                <img src="logo.png" alt="Logo" width="60" height="60">
             </a>
         </div>
 
