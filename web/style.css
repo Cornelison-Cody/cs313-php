@@ -1,0 +1,117 @@
+
+/*Normalize*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: aliceblue;
+    height: 100%;
+}
+#pageContent {
+    min-height: 100%;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0 2px 0;
+    background-color: #002232;
+}
+header > div {
+    flex-grow: 1;
+    text-align: center;
+}
+#header-logo {
+    width: 25%;
+    text-align: left;
+    margin-left: 5px;
+}
+#header-logo > a > img {
+    border-radius: 10px;
+}
+
+#header-title {
+    width: 50%;
+    color: white;
+    font-family: "Bookman Old Style";
+    font-size: x-large;
+}
+.link-rightSide {
+    width: 25%;
+    text-align: right;
+    margin-right: 15px;
+}
+.link-rightSide > a {
+    font-family: Centaur ;
+    color: #60b0f4;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.link-rightSide > a:hover {
+    color: white;
+}
+
+#mainContent {
+    font-family: Georgia;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mainContent > img {
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#mainContent > div {
+    margin-left: 20px;
+    width: 500px;
+}
+
+#mainContent > div >h1 {
+    color: #002232;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#mainContent > div > p {
+    padding-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px 0 2px 0;
+    background-color: #002232;
+}
+footer > div {
+    flex-grow: 1;
+    text-align: center;
+}
+#footer-socialMedia {
+    text-align: left;
+    margin-left: 5px;
+}
+#footer-socialMedia > img {
+    height: 5vw;
+    max-height: 35px;
+}
